@@ -14,3 +14,7 @@ Source code for [this blog post](https://marcogorelli.github.io/2020/06/21/selfc
    ```bash
    pip install -r requirements.txt
    ```
+4. You should now be able to run any of the commands from the blog post, e.g.
+   ```bash
+    jupyter nbconvert notebooks/hello_world.ipynb --output-dir build
+   ```
